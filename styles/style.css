@@ -1,0 +1,38 @@
+/* Shared Styles */
+.display-flex{
+    display: flex;
+}
+.main-text{
+    color: rgba(255, 255, 255, 1);
+}
+.text-color{
+    color: rgba(255, 255, 255, 0.5);
+}
+.bg-light{
+    background-color: #111111;
+}
+/* Navbar Styles */
+.title{
+font-style: italic;
+font-size: 2.25rem;
+font-weight: 800;
+color: #E6533C;
+}
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.nav-links{
+    list-style: none;
+}
+.nav-link{
+    text-decoration: none;
+    background-color: rgba(17, 17, 17, 1);
+    color: #FFFFFF;
+}
+.nav-item{
+    margin-right: 30px;
+    text-decoration: none;
+}
+/* Header Styles */
