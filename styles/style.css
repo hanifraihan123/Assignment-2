@@ -5,15 +5,26 @@
 .main-text{
     color: rgba(255, 255, 255, 1);
 }
-.text-color{
+.short{
     color: rgba(255, 255, 255, 0.5);
 }
 .bg-light{
     background-color: #111111;
+    max-width: 1440px;
+    padding: 10px 80px;
 }
+.title, .write{
+    font-style: italic;
+}
+.text{
+    color: #FFFFFF;
+}
+.text, .short{
+    text-align: center;
+}
+
 /* Navbar Styles */
 .title{
-font-style: italic;
 font-size: 2.25rem;
 font-weight: 800;
 color: #E6533C;
@@ -25,6 +36,8 @@ color: #E6533C;
 }
 .nav-links{
     list-style: none;
+    border: 1px solid rgb(55, 54, 54);
+    border-radius: 80px;
 }
 .nav-link{
     text-decoration: none;
@@ -35,4 +48,101 @@ color: #E6533C;
     margin-right: 30px;
     text-decoration: none;
 }
+.bar{
+    background-color: #E6533C;
+    border-radius: 100px;
+}
 /* Header Styles */
+
+/* Banner Styles */
+.banner-title{
+    color: #FFFFFF;
+    font-size: 4.25rem;
+    font-weight: 700;
+}
+.write{
+    font-weight: 400;
+}
+.description{
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+.btn-primary{
+background-color: #E6533C;
+color: #FFFFFF;
+width: 180px;
+height: 30px;
+border: 1px solid black;
+border-radius: 50px;
+}
+.btn-secondary{
+    background-color: #111111;
+    color: #FFFFFF;
+    width: 180px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+.banner-image{
+    width: 280px;
+    height: 440px;
+    margin: 0 auto;
+}
+.bts{
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 140px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: auto;
+}
+.digit{
+    color: rgba(255, 255, 255, 1);
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.writing{
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 0.75rem;
+}
+.digits{
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.ball{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: #E6533C;
+    text-align: center;
+}
+/* Change related styles */
+.change{
+    background-color: black;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.change-title{
+    color: rgba(255, 255, 255, 1);
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.description{
+    color: rgba(255, 255, 255, 1);
+}
+.head{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.img-container img{
+    height: 180px;
+    width: 180px;
+    border-radius: 100%;
+}
+.img-container{
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
