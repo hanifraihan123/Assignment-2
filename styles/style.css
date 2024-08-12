@@ -18,11 +18,14 @@
 }
 .text{
     color: #FFFFFF;
+    font-size: 1.25rem;
 }
 .text, .short{
     text-align: center;
 }
-
+.table-title, .table{
+    color: #FFFFFF;
+    }
 /* Navbar Styles */
 .title{
 font-size: 2.25rem;
@@ -120,7 +123,8 @@ border-radius: 50px;
 /* Change related styles */
 .change{
     background-color: black;
-    max-width: 1440px;
+    max-width: 1044px;
+    height: auto;
     margin: 0 auto;
 }
 .change-title{
@@ -128,13 +132,10 @@ border-radius: 50px;
     font-size: 2.5rem;
     font-weight: 700;
 }
-.description{
-    color: rgba(255, 255, 255, 1);
-}
 .head{
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 30px;
+    padding: 20px;
 }
 .img-container img{
     height: 180px;
@@ -145,4 +146,83 @@ border-radius: 50px;
     gap: 40px;
     justify-content: center;
     align-items: center;
+}
+/* Run Section related style */
+.run{
+    background-color: #222222;
+    margin: 8px 50px;
+    max-width: 1020px;
+    border: 1px solid #222222;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+.separate{
+    padding: 5px 20px 20px 60px;
+}
+.run-title{
+    color: #FFFFFF;
+    font-size: 2.75rem;
+    font-weight: 600;
+}
+.description{
+    color: rgba(255, 255, 255, 0.5);
+}
+.run-image{
+    height: 250px;
+    width: 320px;
+    border-radius: 15px;
+    margin: 40px;
+}
+/* BMI calculator Styles */
+.text-bmi{
+    color: rgba(255, 255, 255, 0.5);
+}
+.bmi{
+    padding: 10px 300px;
+}
+/* table related style */
+.bmi-calculator{
+    background-color: #222222;
+    max-width: 1440px;
+}
+.bmi-table{
+    margin-left: 100px;
+    padding: 30px 20px;
+   
+}
+.table-title{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+table{
+    border-collapse: collapse;
+}
+td, th{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 5px 10px;
+}
+tr th{
+    text-align: start;
+}
+tr td{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.85rem;
+}
+input{
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+input form{
+    color: rgba(255, 255, 255, 0.6);
+}
+.tables{
+    padding: 30px 20px;
+    margin-left: 80px;
+}
+.last-bt{
+    margin: 10px 0px;
+}
+.overall{
+    gap: 10px;
 }
