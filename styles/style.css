@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 /* Shared Styles */
 .display-flex{
     display: flex;
@@ -10,7 +11,7 @@
 }
 .bg-light{
     background-color: #111111;
-    max-width: 1440px;
+    max-width: 100%;
     padding: 10px 80px;
 }
 .title, .write{
@@ -123,7 +124,7 @@ border-radius: 50px;
 /* Change related styles */
 .change{
     background-color: black;
-    max-width: 1044px;
+    max-width: 100%;
     height: auto;
     margin: 0 auto;
 }
@@ -151,7 +152,7 @@ border-radius: 50px;
 .run{
     background-color: #222222;
     margin: 8px 50px;
-    max-width: 1020px;
+    max-width: 100%;
     border: 1px solid #222222;
     border-radius: 10px;
     justify-content: space-between;
@@ -183,7 +184,7 @@ border-radius: 50px;
 /* table related style */
 .bmi-calculator{
     background-color: #222222;
-    max-width: 1440px;
+    max-width: 100%;
 }
 .bmi-table{
     margin-left: 100px;
@@ -223,6 +224,69 @@ input form{
 .last-bt{
     margin: 10px 0px;
 }
-.overall{
-    gap: 10px;
+/* meet section styles */
+.meet-title{
+    font-size: 2.5rem;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+.meet-text{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.meet-img-container{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 10px;
+}
+.meet-img-container img{
+    height: 280px;
+    width: 350px;
+    border-radius: 10px; 
+}
+/* Footer styles */
+.last{
+    padding: 30px;
+    margin-top: 40px;
+    gap: 120px;
+}
+footer{
+    background-color: rgba(255, 255, 255, 0.10);
+}
+.footer-text{
+    color: rgba(255, 255, 255, 0.50);
+}
+ul li{
+    list-style: none;
+    color: rgba(255, 255, 255, 0.50);
+    padding: 5px 10px;
+}
+.foot{
+    padding-left: 30px;
+}
+/* Responsive for smmall device */
+@media screen and (max-width: 576px) {
+    .nav-links{
+        display: none;
+    }
+.display-flex{
+    flex-direction: column;
+}
+.run-image{
+    height: 100%;
+    width: 100%;
+    justify-items: center;
+}
+.button{
+flex-direction: row;
+}
+.meet-img-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.meet-img-container img{
+    justify-items: center;
+    width: 100%;
+    height: 100%;
+}
 }
