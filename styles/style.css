@@ -265,10 +265,25 @@ input{
    grid-template-columns: repeat(3, 1fr);
    gap: 10px;
 }
+.img-title{
+    position: absolute;
+    margin: -50px 10px;
+    color: #FFFFFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.img-text{
+    position: absolute;
+    margin: -25px 10px;
+    color: #FFFFFF;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
 .meet-img-container img{
     height: 280px;
     width: 350px;
     border-radius: 10px; 
+    position: relative;
 }
 /* Footer styles */
 .last{
@@ -301,9 +316,6 @@ ul li{
 .display-flex{
     flex-direction: column;
 }
-/* .btn-primary{
-    width: 170px;
-} */
 #badge{
     height: auto;
     width: 140px;
